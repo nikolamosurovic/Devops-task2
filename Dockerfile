@@ -5,10 +5,10 @@ FROM python:2.7
 WORKDIR /app
 
 # Copy the requirements.txt file to the container
-COPY requirements.txt .
+#COPY requirements.txt .
 
 # Install the required Python packages
-RUN pip install --no-cache-dir -r requirements.txt
+#RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code to the container
 COPY . .
